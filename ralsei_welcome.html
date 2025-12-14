@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infection Active</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        
+        body {
+            background-color: #f7f3ff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Varela Round', sans-serif;
+            padding: 20px;
+        }
+
+
+        .welcome-box {
+            background-color: #ffffff;
+            border: 6px solid #90ee90; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1),
+                        0 0 15px rgba(144, 238, 144, 0.5); 
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 550px;
+            width: 100%;
+            text-align: center;
+            animation: bounceIn 1s ease-out;
+        }
+        
+        @keyframes bounceIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            60% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+
+
+        .ralsei-icon {
+            font-size: 3rem;
+            color: #ff69b4; 
+            margin-bottom: 15px;
+            display: block;
+        }
+
+
+        h1 {
+            color: #38a169;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+
+        p {
+            color: #555555;
+            font-size: 1.2rem;
+            line-height: 1.4;
+            margin-top: 20px;
+        }
+
+
+        .signature {
+            color: #ff69b4;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-box">
+        <span class="ralsei-icon">&#10084;</span> 
+        <h1>[ WELCOME MESSAGE ]</h1>
+        <p>
+            Well, it looks like you've been infected by Ralsei now!
+        </p>
+        <p>
+            This adorable little virus promises a delightful, harmless experience.
+        </p>
+        <p class="signature">
+            Enjoy the show! :)
+        </p>
+    </div>
+</body>
+</html>
